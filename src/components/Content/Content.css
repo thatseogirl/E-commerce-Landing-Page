@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+.content {
+  padding: 50px;
+    gap: 0;
+    width: 80%;
+    margin: auto;
+    font-family: "Kumbh Sans", sans-serif;
+}
+.price{
+  font-size: 12px;
+}
+.responsive {
+  height: 5vmin;
+}
+.value {
+  width: 140px;
+}
+.color{
+  background-color: hsl(220, 14%, 75%);
+}
+.cart {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+.cartIcon {
+  margin-right: 10px;
+  color: white;
+  width: 15px;
+}
+.btnCart {
+  width: 250px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: hsl(26, 100%, 55%) !important;
+  border: none !important;
+  font-weight: 400;
+  box-shadow: hsl(25, 100%, 94%) 0px 5px 15px!important;
+}
+.btnCart:hover {
+  background-color: hsl(25, 100%, 94%) !important;
+  color:  hsl(26, 100%, 55%);
+  cursor: pointer;
+}
+.inputbtn:hover {
+  background-color: hsl(25, 100%, 94%) !important;
+  cursor: pointer;
+}
+.inputbtn{
+  background-color: #F7F8FD!important;
+  border: none !important;
+}
+.discount {
+  display: flex;
+  flex-direction: column;
+}
+.text-btn {
+  background-color: hsl(25, 100%, 94%) !important;
+  color: hsl(26, 100%, 55%) !important;
+  border: none !important;
+  margin-left: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 10px;
+}
+.active {
+  font-weight: 800;
+}
+.fall-profile {
+  margin-top: 50px;
+}
+.company {
+  text-transform: uppercase;
+  color: hsl(26, 100%, 55%);
+  font-weight: 800;
+  font-size: 8px;
+}
+.text-area h2 {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 0.9;
+}
+.weather {
+  margin-top: 40px;
+  font-size: 13px;
+  width: 350px;
+}
+input {
+  text-align: center;
+  background-color: #F7F8FD!important;
+  border: none!important;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+  background-color: #F7F8FD!important;
+  border: none!important;
+}
+:-moz-placeholder {
+  text-align: center;
+  background-color: #F7F8FD!important;
+  border: none!important;
+}
+@media only screen and (max-width: 600px) {
+  .discount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .price{
+    margin-right: 20px;
+  }
+  .company{
+    font-size: 20px;
+  }
+  .cart{
+    flex-direction: column;
+  }
+  .content{
+    width: 100%;
+  }
+  .weather{
+    font-size: 20px;
+  }
+  .text-area h2 {
+    width: 300px;
+    font-size: 26px;
+  }
+  .value{
+    width: 100%;
+  }
+  .btnCart{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .content{
+    width: 100%;
+  }
+} 
+
