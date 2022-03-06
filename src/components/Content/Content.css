@@ -120,11 +120,11 @@ input {
     width: 100%;
   }
   .weather{
-    font-size: 20px;
+    font-size: 16px;
+    width: fit-content;
   }
   .text-area h2 {
-    width: 300px;
-    font-size: 26px;
+    font-size: 16px;
   }
   .value{
     width: 100%;

@@ -32,7 +32,7 @@ export default function Content({
         <div className="discount">
           <div>
             <strong className="active">$125.00</strong>
-            <Button className="text-btn">
+            <Button className="text-btn" disabled>
               50%
             </Button>
           </div>
