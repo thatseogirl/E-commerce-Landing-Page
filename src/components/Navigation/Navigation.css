@@ -13,3 +13,33 @@
       font-size: 12px;
     font-weight: 400;
 }
+.mobile{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .mobile{
+        display: flex;
+        padding: 20px;
+        width: 100%;
+        margin: auto;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+    .mobile-cart{
+        display: flex;
+        flex-direction: row;
+    }
+    .mobile-text{
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .img{
+        margin-right: 20px;
+        height: 8vmin;
+    }
+    .responsive{
+        height: 10vmin;
+    }
+    .header{
+        display: none;
+    }
+}

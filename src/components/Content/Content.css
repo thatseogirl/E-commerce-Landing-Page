@@ -101,6 +101,18 @@ input {
   background-color: #F7F8FD!important;
   border: none!important;
 }
+
+@media only screen and (max-width: 1200px) {
+  .content{
+    width: 85%;
+  }
+  .btnCart{
+    width: 150px;
+  }
+  .fall-profile{
+    padding-left: 80px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .discount {
     display: flex;
@@ -118,6 +130,7 @@ input {
   }
   .content{
     width: 100%;
+    padding: 20px;
   }
   .weather{
     font-size: 16px;
@@ -132,10 +145,16 @@ input {
   .btnCart{
     width: 100%;
   }
+  .fall-profile{
+    padding-left: 0px;
+  }
 }
 @media only screen and (max-width: 400px) {
   .content{
     width: 100%;
+  }
+  .fall-profile{
+    padding-left: 0px;
   }
 } 
 
