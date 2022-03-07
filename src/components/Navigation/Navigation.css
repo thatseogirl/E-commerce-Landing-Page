@@ -43,3 +43,8 @@
         display: none;
     }
 }
+@media only screen and (max-width: 400px) {
+    .mobile-text{
+        font-size: 25px;
+    }
+} 
