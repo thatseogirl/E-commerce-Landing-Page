@@ -20,6 +20,7 @@
   .sneakers {
     height: 60vmin;
     border-radius: 10px;
+    width: 400px;
   }
  
   .sneakers-responsive{

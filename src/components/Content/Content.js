@@ -46,11 +46,12 @@ export default function Content({
               <InputGroup.Text 
               className="inputbtn"
               id="basic-addon1"
-              style={{backgroundColor: "white"}}>
+              style={{backgroundColor: "white"}}
+              onClick={handleDecrement}>
                 <img 
                 src={minus} 
                 alt="Remove item" 
-                onClick={handleDecrement} />
+                />
               </InputGroup.Text>
               <FormControl
                 type="number"
@@ -62,11 +63,12 @@ export default function Content({
               />
               <InputGroup.Text 
               className="inputbtn"
-               id="basic-addon1">
+               id="basic-addon1"
+               onClick={handleIncrement}>
                 <img 
                 src={plus} 
                 alt="Add item" 
-                onClick={handleIncrement} />
+                 />
               </InputGroup.Text>
             </InputGroup>
           </div>
@@ -74,7 +76,7 @@ export default function Content({
             <Button onClick={handleClick} className="btnCart">
               <img src={cart} alt="cart" className="cartIcon" />
               Add to Cart
-            </Button>{" "}
+            </Button>
           </div>
         </div>
       </Col>

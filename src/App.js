@@ -3,8 +3,8 @@ import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
 import Content from "./components/Content/Content";
 function App() {
-  const [counter, setCounter] = useState(1);
-  const [addedItem, setAddedItem] = useState(1);
+  const [counter, setCounter] = useState(0);
+  const [addedItem, setAddedItem] = useState(0);
   const handleIncrement = () => {
     setCounter(counter + 1);
   };

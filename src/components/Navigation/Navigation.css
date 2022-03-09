@@ -1,50 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
 .header {
-    padding: 20px;
-    width: 80%;
-    margin: auto;
-    font-family: 'Kumbh Sans', sans-serif;
-  }
-  .home{
-      font-weight: 800;
-  }
-  .homeLink{
-      font-size: 12px;
-    font-weight: 400;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  font-family: "Kumbh Sans", sans-serif;
 }
-.mobile{
-    display: none;
+.home {
+  font-weight: 800;
+}
+
+.homeLink {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.mobile {
+  display: none;
+}
+.tag{
+  color: hsl(26, 100%, 55%);
+  font-size: 20px;
 }
 @media only screen and (max-width: 600px) {
-    .mobile{
-        display: flex;
-        padding: 20px;
-        width: 100%;
-        margin: auto;
-        font-family: 'Kumbh Sans', sans-serif;
-    }
-    .mobile-cart{
-        display: flex;
-        flex-direction: row;
-    }
-    .mobile-text{
-        font-weight: 700;
-        font-size: 35px;
-    }
-    .img{
-        margin-right: 20px;
-        height: 8vmin;
-    }
-    .responsive{
-        height: 10vmin;
-    }
-    .header{
-        display: none;
-    }
+  .mobile {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  .mobile-cart {
+    display: flex;
+    flex-direction: row;
+  }
+  .mobile-text {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .img {
+    margin-right: 20px;
+    height: 8vmin;
+  }
+  .mobiletag{
+    color: hsl(26, 100%, 55%);
+    font-size: 20px;
+  }
+  .responsive {
+    height: 10vmin;
+  }
+  .header {
+    display: none;
+  }
 }
 @media only screen and (max-width: 400px) {
-    .mobile-text{
-        font-size: 25px;
-    }
-} 
+  .mobile-text {
+    font-size: 25px;
+  }
+}

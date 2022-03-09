@@ -2,12 +2,12 @@
 
 .content {
   padding: 50px;
-    gap: 0;
-    width: 80%;
-    margin: auto;
-    font-family: "Kumbh Sans", sans-serif;
+  gap: 0;
+  width: 80%;
+  margin: auto;
+  font-family: "Kumbh Sans", sans-serif;
 }
-.price{
+.price {
   font-size: 12px;
 }
 .responsive {
@@ -16,7 +16,7 @@
 .value {
   width: 140px;
 }
-.color{
+.color {
   background-color: hsl(220, 14%, 75%);
 }
 .cart {
@@ -36,19 +36,19 @@
   background-color: hsl(26, 100%, 55%) !important;
   border: none !important;
   font-weight: 400;
-  box-shadow: hsl(25, 100%, 94%) 0px 5px 15px!important;
+  box-shadow: hsl(25, 100%, 94%) 0px 5px 15px !important;
 }
 .btnCart:hover {
   background-color: hsl(25, 100%, 94%) !important;
-  color:  hsl(26, 100%, 55%);
+  color: hsl(26, 100%, 55%);
   cursor: pointer;
 }
 .inputbtn:hover {
   background-color: hsl(25, 100%, 94%) !important;
   cursor: pointer;
 }
-.inputbtn{
-  background-color: #F7F8FD!important;
+.inputbtn {
+  background-color: #f7f8fd !important;
   border: none !important;
 }
 .discount {
@@ -88,35 +88,43 @@
 }
 input {
   text-align: center;
-  background-color: #F7F8FD!important;
-  border: none!important;
+  background-color: #f7f8fd !important;
+  border: none !important;
 }
 ::-webkit-input-placeholder {
   text-align: center;
-  background-color: #F7F8FD!important;
-  border: none!important;
+  background-color: #f7f8fd !important;
+  border: none !important;
 }
 :-moz-placeholder {
   text-align: center;
-  background-color: #F7F8FD!important;
-  border: none!important;
+  background-color: #f7f8fd !important;
+  border: none !important;
 }
 
 @media only screen and (max-width: 1200px) {
-  .content{
+  .content {
     width: 85%;
   }
-  .btnCart{
+  .btnCart {
     width: 150px;
   }
-  .fall-profile{
+  .fall-profile {
     padding-left: 80px;
   }
 }
-@media only screen and (max-width: 990px){
-  .fall-profile{
-  padding-left: 0px;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+@media only screen and (max-width: 990px) {
+  .fall-profile {
+    padding-left: 0px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -125,42 +133,41 @@ input {
     flex-direction: row;
     justify-content: space-between;
   }
-  .price{
+  .price {
     margin-right: 20px;
   }
-  .company{
+  .company {
     font-size: 20px;
   }
-  .cart{
+  .cart {
     flex-direction: column;
   }
-  .content{
+  .content {
     width: 100%;
     padding: 20px;
   }
-  .weather{
+  .weather {
     font-size: 16px;
     width: fit-content;
   }
   .text-area h2 {
     font-size: 16px;
   }
-  .value{
+  .value {
     width: 100%;
   }
-  .btnCart{
+  .btnCart {
     width: 100%;
   }
-  .fall-profile{
+  .fall-profile {
     padding-left: 0px;
   }
 }
 @media only screen and (max-width: 400px) {
-  .content{
+  .content {
     width: 100%;
   }
-  .fall-profile{
+  .fall-profile {
     padding-left: 0px;
   }
-} 
-
+}
