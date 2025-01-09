@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
 .content {
-  padding: 50px;
-  gap: 0;
-  width: 80%;
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  width: 90%;
   font-family: "Kumbh Sans", sans-serif;
 }
 .price {
@@ -30,8 +30,8 @@
   width: 15px;
 }
 .btnCart {
-  width: 250px;
-  padding: 12px;
+  /* width: 0px; */
+  /* padding: 12px; */
   border-radius: 8px;
   background-color: hsl(26, 100%, 55%) !important;
   border: none !important;
@@ -84,7 +84,7 @@
 .weather {
   margin-top: 40px;
   font-size: 13px;
-  width: 350px;
+  width: 320px;
 }
 input {
   text-align: center;
@@ -124,6 +124,10 @@ input[type="number"] {
 @media only screen and (max-width: 990px) {
   .fall-profile {
     padding-left: 0px;
+  }
+  .content {
+    grid-template-columns: 1fr;
+   
   }
 }
 

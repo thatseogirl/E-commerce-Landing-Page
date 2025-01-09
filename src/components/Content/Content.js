@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Button, InputGroup, FormControl } from "react-bootstrap";
+import { Button, InputGroup, FormControl } from "react-bootstrap";
 import Product from "../product/Product";
 import minus from "../assets/images/minus.svg";
 import plus from "../assets/images/plus.svg";
@@ -14,11 +14,11 @@ export default function Content({
   handleIncrement,
 }) {
   return (
-    <Row className="content">
-      <Col lg={6}>
+    <div className="content">
+      <div>
         <Product />
-      </Col>
-      <Col lg={6} className="fall-profile">
+      </div>
+      <div className="fall-profile" >
         <div className="text-area">
           <p className="company">Sneaker Company</p>
           <h2>Fall Limited Edition</h2>
@@ -79,7 +79,7 @@ export default function Content({
             </Button>
           </div>
         </div>
-      </Col>
-    </Row>
+      </div>
+    </div>
   );
 }

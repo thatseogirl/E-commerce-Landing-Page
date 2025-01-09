@@ -6,7 +6,7 @@ import "./Navigation.css";
 
 export default function Navigation({addedItem}) {
   return (
-    <div>
+    <div> 
       <Navbar collapseOnSelect expand="lg" className="header">
         <Navbar.Brand href="#home" className="home">
           sneakers
