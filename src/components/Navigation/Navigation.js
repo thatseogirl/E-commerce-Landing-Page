@@ -8,25 +8,25 @@ export default function Navigation({addedItem}) {
   return (
     <div> 
       <Navbar collapseOnSelect expand="lg" className="header">
-        <Navbar.Brand href="home" className="home">
+        <Navbar.Brand href="#home" className="home">
           sneakers
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="collections" className="homeLink">
+            <Nav.Link href="#collections" className="homeLink">
               Collections
             </Nav.Link>
-            <Nav.Link href="Men" className="homeLink">
+            <Nav.Link href="#Men" className="homeLink">
               Men
             </Nav.Link>
-            <Nav.Link href="Women" className="homeLink">
+            <Nav.Link href="#Women" className="homeLink">
               Women
             </Nav.Link>
-            <Nav.Link href="About" className="homeLink">
+            <Nav.Link href="#About" className="homeLink">
               About
             </Nav.Link>
-            <Nav.Link href="contacts" className="homeLink">
+            <Nav.Link href="#contacts" className="homeLink">
               Contacts
             </Nav.Link>
           </Nav>
